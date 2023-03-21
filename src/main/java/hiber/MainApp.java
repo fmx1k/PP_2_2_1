@@ -36,6 +36,11 @@ public class MainApp {
       userService.add(user3);
       userService.add(user4);
 
+      System.out.println(userService.takeUserFromCar("Ford", 3000));
+      System.out.println(userService.takeUserFromCar("Lamborghini", 1000));
+      System.out.println(userService.takeUserFromCar("Mercedes", 2000));
+      System.out.println(userService.takeUserFromCar("Fiat", 4000));
+
       List<User> users = userService.listUsers();
       for (User user : users) {
          System.out.println("Id = "+user.getId());

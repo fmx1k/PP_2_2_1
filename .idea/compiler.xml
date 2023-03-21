@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="PP_2_2_1" />
         <module name="spring-hibernate" />
+        <module name="PP_2_2_1_spring_hibernate-master" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
